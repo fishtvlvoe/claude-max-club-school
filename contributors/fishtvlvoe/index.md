@@ -103,3 +103,6 @@ has_children: true
 ### 代碼效率與環境（2026-05-25 新增）
 - [先搜尋現有實作再動手，不要重複造輪子](043-reuse-first.md)：寫代碼前先 grep codebase，有的直接用，禁止從頭寫已存在的東西
 - [需要 API Key 先查 .env，不要問用戶](044-check-env-first.md)：金鑰在 .env 裡，查了再說，找不到才開口
+
+### 前端開發環境（2026-06-22 新增）
+- [localhost 換專案前先清 Service Worker 和 Cache](045-clear-service-worker-before-test.md)：curl 對但瀏覽器錯 = SW 攔截，每次換 dev server 都要先清
