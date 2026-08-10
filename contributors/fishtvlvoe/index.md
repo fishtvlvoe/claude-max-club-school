@@ -106,3 +106,9 @@ has_children: true
 
 ### 前端開發環境（2026-06-22 新增）
 - [localhost 換專案前先清 Service Worker 和 Cache](045-clear-service-worker-before-test.md)：curl 對但瀏覽器錯 = SW 攔截，每次換 dev server 都要先清
+
+### Chrome MCP 進階操作（2026-08-10 新增）
+- [Chrome MCP 填 React 表單值沒更新 state](046-chrome-mcp-react-input.md)：`computer.type` 不觸發 React onChange，MUST 用 nativeInputValueSetter
+- [Chrome MCP find() 的 ref 不能猜號碼，也不能跨 batch](047-chrome-mcp-ref-same-batch.md)：ref 號碼每次不固定，find→用 ref 必須在同一 batch
+- [Chrome MCP 填表應先 read_page 一次拿所有 ref，再一個 batch 完成](048-chrome-mcp-read-page-batch.md)：分多次 call 會讓 ref 失效且浪費 round-trip
+- [Chrome MCP 截圖報 extension 權限錯誤，直接換 tab 不要 debug](049-chrome-mcp-tab-switch.md)：換新分頁 99% 能繞過，越 debug 越卡
