@@ -17,6 +17,7 @@ has_children: true
 
 | 貢獻者 | 經驗數 | 主要領域 |
 |:-------|:------|:---------|
+| [fishtvlvoe]({{ site.baseurl }}{% link contributors/fishtvlvoe/index.md %}) | 50 | 工具降級策略、驗證流程、多模型協作、Spectra工作流、Chrome MCP、溝通流程 |
 | [hanslin]({{ site.baseurl }}{% link contributors/hanslin/index.md %}) | 25 | Token 效率、診斷驗證、覆蓋風險、CSS/Jekyll 前端、自動化、專案管理 |
 
 ---

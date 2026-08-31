@@ -112,3 +112,6 @@ has_children: true
 - [Chrome MCP find() 的 ref 不能猜號碼，也不能跨 batch](047-chrome-mcp-ref-same-batch.md)：ref 號碼每次不固定，find→用 ref 必須在同一 batch
 - [Chrome MCP 填表應先 read_page 一次拿所有 ref，再一個 batch 完成](048-chrome-mcp-read-page-batch.md)：分多次 call 會讓 ref 失效且浪費 round-trip
 - [Chrome MCP 截圖報 extension 權限錯誤，直接換 tab 不要 debug](049-chrome-mcp-tab-switch.md)：換新分頁 99% 能繞過，越 debug 越卡
+
+### 溝通與判斷（2026-08-31 新增）
+- [用戶說「重做比較快」時，預設信他](050-trust-redo-judgment.md)：別用「先分析看看」擋使用者已做好的決定
