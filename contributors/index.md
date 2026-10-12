@@ -18,6 +18,7 @@ has_children: true
 | 貢獻者 | 經驗數 | 主要領域 |
 |:-------|:------|:---------|
 | [hanslin]({{ site.baseurl }}{% link contributors/hanslin/index.md %}) | 25 | Token 效率、診斷驗證、覆蓋風險、CSS/Jekyll 前端、自動化、專案管理 |
+| [fishtvlvoe]({{ site.baseurl }}{% link contributors/fishtvlvoe/index.md %}) | 10 | 靜默重試、自主解決、自動化原則、協作溝通、風格一致性、驗證流程、reuse-first、派工驗收 |
 
 ---
 
