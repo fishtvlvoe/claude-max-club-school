@@ -2,6 +2,15 @@
 # AI 讀這個檔案就能快速篩選相關貢獻者，不需要逐一打開每個人的 index.md
 # 新貢獻者請在 PR 裡同步更新這個檔案
 
+- username: fishtvlvoe
+  name: Fish（老魚）
+  role: 一人公司經營者 / 獨立開發者
+  work: 經營 BuyGo 電商管理系統（WordPress 外掛），台灣在地電商 SaaS
+  stack: [WordPress, PHP, Next.js, Supabase, GSD, Spectra, SDD]
+  uses_claude_for: [外掛開發, 多模型Agent協作, SDD流程設計, 自動化腳本]
+  lessons: 7
+  topics: [任務溝通, 驗證流程, reuse-first, 風格衝突, 派工驗收, 開口前反思, 重做判斷]
+
 - username: hanslin
   name: Hans Lin
   role: 獨立開發者 / 技術內容創作者
