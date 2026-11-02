@@ -118,3 +118,7 @@ has_children: true
 
 ### 討論節奏（2026-09-14 新增）
 - [討論中一題一題等確認，不要用戶還在想就跳下一步](051-wait-for-confirmation-in-discussions.md)：提出選項後等明確確認，「嗯」「有道理」不算同意
+
+### 多代理架構（2026-11-02 新增）
+- [協調型子代理用小模型，讓大模型專注推理](052-small-model-for-coordination.md)：監工/輪詢/驗收不需要 Opus，Haiku 就夠
+- [派工長時間任務後用 ScheduleWakeup 排定監看](053-schedulewakeup-monitor-dispatch.md)：派完就沉默等於讓用戶去監工
