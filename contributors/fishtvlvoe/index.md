@@ -122,3 +122,6 @@ has_children: true
 ### 多代理架構（2026-11-02 新增）
 - [協調型子代理用小模型，讓大模型專注推理](052-small-model-for-coordination.md)：監工/輪詢/驗收不需要 Opus，Haiku 就夠
 - [派工長時間任務後用 ScheduleWakeup 排定監看](053-schedulewakeup-monitor-dispatch.md)：派完就沉默等於讓用戶去監工
+
+### 工具備援（2026-11-09 新增）
+- [主 AI 工具額度用完時，立刻切換備援工具，不要乾等](054-backup-ai-tool-on-quota-exhausted.md)：先 commit 存檔，備好 context，切換備援繼續，不說「請等 X 小時」
